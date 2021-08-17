@@ -28,7 +28,7 @@ about_content: |
 
   I've worked with a wide range of different companies, from implementing the first minimum viable product with a start-up to 
   building on large enterprise systems serving thousands of users. During this time I've encountered a lot of different 
-  programming languages, tools, frameworks and ways of working. Which has turned me in to a very versatile software engineer.
+  programming languages, tools, frameworks and ways of working, which has turned me in to a very versatile software engineer.
 
 content:
   - title: Experience
@@ -89,7 +89,7 @@ content:
         description: |
           I joined Golfer Sweden as a full stack developer in an early start up phase to help them implement Swedens official 
           booking application for tee times. The application was licensed by the Swedish Golf Federation and published on 
-          App Store and Google Play under the name "Min Golf Bokning"
+          App Store and Google Play under the name "Min Golf Bokning".
 
           During my time here I had to work with a wide variety of technologies, such as implementing a cross platform mobile 
           application in React Native, manage cloud infrastructure in AWS and build APIs used by the client facing mobile 
@@ -113,7 +113,7 @@ content:
           robust and thoroughly tested. It was important to understand complex use cases and tax rules to be able to translate them into 
           technical solutions.
 
-          **Technologies**:  `Java EE` `Clearcase` `REST` `SQL` `AngularJS`
+          **Technologies**:  `Java EE` `ClearCase` `REST` `SQL` `AngularJS`
       - layout: left
         title: We Know IT
         sub_title: Software Developer
@@ -132,7 +132,7 @@ content:
         title: Covidhjälpen
         caption: March 2020 - June 2020
         description: |
-          Covidhjälpen.se was a website that matched people who want to help others that are affected by the Covid 19 pandemic. 
+          Covidhjälpen.se was a website that matched people who want to help others that are affected by the Covid-19 pandemic. 
           The service provides social logins and an algorithm to match people in geographic areas depending on their current 
           location.
 
@@ -145,16 +145,16 @@ content:
         link: quizlyapp.com
         caption: November 2019 - Now
         description: |
-          Quizly is the game where you can challenge your friends live to professionally made quizes, with different 
+          Quizly is the game where you can challenge your friends to professionally made quizes, with different 
           scoring modes, question and answering types!
 
           This project consists of several different applications, like a cross-platform react native app for playing the game, 
-          an API that stores quizes and provides matchmatking, an API that allows admins to easily create new quizes and 
+          an API that stores quizes and provides matchmaking, an API that allows admins to easily create new quizes and 
           a dockerized game server managing the games with websockets.
 
           Check out the [website](https://quizlyapp.com), 
           download it on [App Store](https://apps.apple.com/se/app/quizly-fr%C3%A5gesport-med-v%C3%A4nner/id1477705227) 
-          or [Google Play](https://play.google.com/store/apps/details?id=com.oskarkarlsson.quizly&hl=sv)
+          or [Google Play](https://play.google.com/store/apps/details?id=com.oskarkarlsson.quizly&hl=sv).
 
           **Technologies**:  `node.js` `TypeScript` `DynamoDB` `Serverless Framework` `React Native` `React`
 
@@ -170,10 +170,10 @@ content:
         description: |
           I studied information system analysis at Linköpings University with a focus on system development and programming.
 
-          During my studies I learnt a lot key skills within software development, but also how to learn new skills, find reliable
+          During my studies I learned a lot of key skills within software development, find reliable
           information and work in teams.
 
-          While studying I was also engaged in several organizations and worked extra for the university as a teaching assistant. 
+          While studying I was also engaged in several student organizations and worked extra for the university as a teaching assistant. 
           Here are some examples:
 
           - Head of IT at FR Ryd
