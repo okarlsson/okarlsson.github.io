@@ -1,0 +1,192 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Oskar Karlsson
+title: Senior Software Engineer
+email: oskarkarlsson1993@gmail.com
+website: https://okarlsson.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username: okarlsson
+linkedin_username: okarlsson
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  I'm a a full stack developer who loves to tackle new challenges and learn different tools and techniques. 
+  During my years in the industry I've worked with a multitude of different technologies ranging from frontend applications 
+  and native apps, to backend applications, databases, cloud and DevOps.
+
+  I've worked with a wide range of different companies, from implementing the first minimum viable product with a start-up to 
+  building on large enterprise systems serving thousands of users. During this time I've encountered a lot of different 
+  programming languages, tools, frameworks and ways of working. Which has turned me in to a very versatile software engineer.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Telia
+        link: telia.se
+        sub_title: Consulting Lead Developer
+        caption: February 2021 - Present
+        description: |
+          After one year in in the project I started as the lead developer in the team. In addition to writing code on a 
+          daily basis I am also responsible for the development efforts, assisting the product manager in technical decisions 
+          and planning the architecture.
+      - layout: left
+        title: Telia
+        link: telia.se
+        sub_title: Consulting Senior Software Engineer
+        caption: February 2020 - February 2021
+        description: |
+          I got contracted as a senior software engineer at Telia to work within a project for 
+          Customer Identity and Access Management (CIAM).
+
+          I like to work on all sides of our application so some days I work on our frontend applications built with React, 
+          some days working on our identity provider built with node.js running in AWS Lambdas, some days configuring our 
+          infrastructure with CloudFormation or Terraform, some days working on our CI/CD pipelines with GitHub actions and 
+          some days working on our micro services built with Golang running in AWS Lambda.
+
+          After getting up to speed and working in the team for a while I was the driving force for replacing the licensed 
+          identity provider that was used with an open source alternative, which ended up giving us a lot more flexibility and 
+          reducing cost in licensing. It was a great way to learn how the OIDC protocol works by implementing an OIDC Provider 
+          from scratch.
+
+          **Technologies**: `node.js` `TypeScript` `Go` `OIDC` `SAML` `React` `REST` `GraphQL` `NoSQL` `PostgreSQL` `Docker` 
+          `Terraform` `ElasticSearch`
+
+          **Cloud Services**: `Cognito` `Lambda` `RDS` `DynamoDB` `SQS` `SNS` `S3` `CloudFront` `Route53` `API Gateway` `IAM` 
+          `VPC` `Route53` `GitHub Actions` `Concourse`
+
+      - layout: left
+        title: Oskar Karlsson Consulting
+        sub_title: Freelance Software Engineer
+        caption: February 2020 - Present
+        description: |
+          When moving on from Golfer Sweden I wanted to start working as a freelancer to decide more about my contracts and have 
+          more flexibility with my own projects.
+      - layout: left
+        title: Golfer Sweden
+        sub_title: CTO
+        caption: May 2019 - Feb 2020
+        description: |
+          After my initial time at Golfer Sweden as a software engineer I advanced to the role as CTO, which meant taking responsibility 
+          for development and planning of all applications and services, while still actively writing code.
+      - layout: left
+        title: Golfer Sweden
+        sub_title: Software Engineer
+        caption: January 2018 - May 2019
+        description: |
+          I joined Golfer Sweden as a full stack developer in an early start up phase to help them implement Swedens official 
+          booking application for tee times. The application was licensed by the Swedish Golf Federation and published on 
+          App Store and Google Play under the name "Min Golf Bokning"
+
+          During my time here I had to work with a wide variety of technologies, such as implementing a cross platform mobile 
+          application in React Native, manage cloud infrastructure in AWS and build APIs used by the client facing mobile 
+          applications as well as web based admin applications.
+
+          Since we were a small team it was important to be able to solve any issue you can encounter when providing a system 
+          with over a hundred thousand users, as well as understanding requirements and helping to scale the business.
+
+          **Technologies**:  `React Native` `Angular` `C#` `.NET Core` `node.js` `REST` `PostgreSQL` `OIDC` `SOAP` `GraphQL` `Serverless Framework`
+
+          **Cloud Services**: `Cognito` `Elastic Beanstalk` `VPC` `Lambda` `CloudFront` `Route53` `S3` `SNS` `SQS` `RDS` `IAM` `CodeBuild` `CodePipeline` `Route53`
+      - layout: left
+        title: Capgemini
+        sub_title: Software Engineer
+        caption: September 2016 - December 2017
+        description: |
+          Capgemini was my first full time employment out of university. During my time here I mainly worked in a project for 
+          the Swedish tax authority, where we built a new system for processing tax data for individuals.
+
+          The system was implemented with Java Enterprise Edition, had requirements to handle large amounts of data and to be 
+          robust and thoroughly tested. It was important to understand complex use cases and tax rules to be able to translate them into 
+          technical solutions.
+
+          **Technologies**:  `Java EE` `Clearcase` `REST` `SQL` `AngularJS`
+      - layout: left
+        title: We Know IT
+        sub_title: Software Developer
+        caption: January 2016 - August 2016
+        description: |
+          I was hired at We Know IT as a part time consultant during my studies at Linköpings University, where I 
+          developed websites with Wordpress, built websites using PHP and helped customers with general IT issues such as 
+          fixing network issues at home.
+
+          **Technologies**:  `PHP` `Wordpress`
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Covidhjälpen
+        caption: March 2020 - June 2020
+        description: |
+          Covidhjälpen.se was a website that matched people who want to help others that are affected by the Covid 19 pandemic. 
+          The service provides social logins and an algorithm to match people in geographic areas depending on their current 
+          location.
+
+          **Technologies**:  `node.js` `TypeScript` `PostgreSQL` `Serverless Framework`
+
+          **Cloud Services**: `AWS Lambda` `RDS` `API Gateway` `Firebase`
+
+      - layout: left
+        title: Quizly - Frågesport med vänner
+        link: quizlyapp.com
+        caption: November 2019 - Now
+        description: |
+          Quizly is the game where you can challenge your friends live to professionally made quizes, with different 
+          scoring modes, question and answering types!
+
+          This project consists of several different applications, like a cross-platform react native app for playing the game, 
+          an API that stores quizes and provides matchmatking, an API that allows admins to easily create new quizes and 
+          a dockerized game server managing the games with websockets.
+
+          Check out the [website](https://quizlyapp.com), 
+          download it on [App Store](https://apps.apple.com/se/app/quizly-fr%C3%A5gesport-med-v%C3%A4nner/id1477705227) 
+          or [Google Play](https://play.google.com/store/apps/details?id=com.oskarkarlsson.quizly&hl=sv)
+
+          **Technologies**:  `node.js` `TypeScript` `DynamoDB` `Serverless Framework` `React Native` `React`
+
+          **Cloud Services**: `AWS Lambda` `RDS` `API Gateway` `Firebase` `EC2` `Next.js`
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Linköping University
+        caption: 2013 - 2016
+        sub_title: Bachelor of Science - Information Systems Analysis
+        description: |
+          I studied information system analysis at Linköpings University with a focus on system development and programming.
+
+          During my studies I learnt a lot key skills within software development, but also how to learn new skills, find reliable
+          information and work in teams.
+
+          While studying I was also engaged in several organizations and worked extra for the university as a teaching assistant. 
+          Here are some examples:
+
+          - Head of IT at FR Ryd
+          - Lead teaching assistant for an introductory course in Java
+          - Head of IT at the programs student union
+
+footer_show_references: true
+
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
