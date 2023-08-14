@@ -149,7 +149,7 @@ content:
     content:
       - layout: left
         title: Clevis
-        link: clevis.app
+        link: clevis.volca.io
         caption: March 2023 - Currently
         description: |
           Clevis is a SaaS solution where users can easily compose apps by combining a set of provided steps. The solution 
