@@ -92,8 +92,9 @@ content:
         sub_title: Freelance Software Engineer
         caption: February 2020 - Present
         description: |
-          When moving on from Golfer Sweden I wanted to start working as a freelancer to decide more about my contracts and have 
-          more flexibility with my own projects.
+          Relera Consulting is my own consulting company that I started to be able to work as a freelance developer. 
+          Starting my own company has been a fun experience and has lead to a lot of knowledge about how to manage finances, contracts, sales and more!
+
       - layout: left
         title: Golfer Sweden
         sub_title: CTO
@@ -101,6 +102,7 @@ content:
         description: |
           After my initial time at Golfer Sweden as a software engineer I advanced to the role as CTO, which meant taking responsibility 
           for development and planning of all applications and services, while still actively writing code.
+
       - layout: left
         title: Golfer Sweden
         sub_title: Software Engineer
@@ -120,6 +122,7 @@ content:
           **Technologies**:  `React Native` `Angular` `C#` `.NET Core` `node.js` `REST` `PostgreSQL` `OIDC` `SOAP` `GraphQL` `Serverless Framework`
 
           **Cloud Services**: `Cognito` `Elastic Beanstalk` `VPC` `Lambda` `CloudFront` `Route53` `S3` `SNS` `SQS` `RDS` `IAM` `CodeBuild` `CodePipeline` `Route53`
+      
       - layout: left
         title: Capgemini
         sub_title: Software Engineer
@@ -133,6 +136,7 @@ content:
           technical solutions.
 
           **Technologies**:  `Java EE` `ClearCase` `REST` `SQL` `AngularJS`
+
       - layout: left
         title: We Know IT
         sub_title: Software Developer
