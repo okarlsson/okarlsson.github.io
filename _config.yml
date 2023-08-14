@@ -35,6 +35,25 @@ content:
     layout: list
     content:
       - layout: left
+        title: Klarna
+        link: klarna.se
+        sub_title: Consulting Senior Software Engineer
+        caption: September 2021 - Juni 2023
+        description: |
+          At Klarna I took part in a project to implement the next generation of customer authentication to create a central location
+          where users could sign in instead of the multiple current solutions.
+
+          The work consisted of both managing requirements such as writing RFCs to discover potential solutions and actual implementation of the service. 
+          There were a lot of challenges and learnings in having to communicate and collaborate with a large number of teams all relying on the authentication solution.
+
+          On the technology side the solution was implemented as a containerised microservice and deployed on AWS. 
+
+          **Technologies**: `node.js` `TypeScript` `Go` `Java` `OIDC` `React` `REST` `GraphQL` `PostgreSQL` `Redis` `Docker` 
+
+          **Cloud Services**: `ECS` `RDS` `ElastiCache` `S3` `CloudFront` `Route53` `IAM` `VPC` `Route53`
+
+          **Other Services**: `Jenkins`
+      - layout: left
         title: Telia
         link: telia.se
         sub_title: Consulting Lead Developer
@@ -128,6 +147,32 @@ content:
   - title: Projects
     layout: list
     content:
+      - layout: left
+        title: Clevis
+        link: clevis.app
+        caption: March 2023 - Currently
+        description: |
+          Clevis is a SaaS solution where users can easily compose apps by combining a set of provided steps. The solution 
+          focuses especially on make it it easier to use the new AI solutions as Chat GPT and combine them with other data sources
+          and processing to create apps with real business value.
+
+          **Technologies**:  `node.js` `TypeScript` `PostgreSQL` `Serverless Framework` `Yarn workspaces` `AWS CDK` `Stripe`
+
+          **Cloud Services**: `AWS Lambda` `RDS` `API Gateway` `VPC` `SES` `S3` `CloudFront` `Route53` `IAM` `Cognito` `Chat GPT`
+      
+      - layout: left
+        title: Volca
+        link: volca.io
+        caption: July 2022 - Currently
+        description: |
+          Volca is a SaaS boilerplate that allows you to speed up time to market of your SaaS project by providing common functionality
+          in SaaS solutions such as authentication, payments and more. It also provides infrastructure configured in AWS CDK to easily deploy the project
+          to the cloud.
+
+          **Technologies**:  `node.js` `TypeScript` `PostgreSQL` `Serverless Framework` `Yarn workspaces` `AWS CDK` `Stripe`
+
+          **Cloud Services**: `AWS Lambda` `RDS` `API Gateway` `VPC` `SES` `S3` `CloudFront` `Route53` `IAM` `Cognito`
+
       - layout: left
         title: Covidhjälpen
         caption: March 2020 - June 2020
