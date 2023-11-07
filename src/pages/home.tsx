@@ -12,19 +12,19 @@ export const HomePage = () => {
         my={{ base: 12, sm: 36 }}
         flexDirection="column"
         justifyContent="center"
-        gap={8}
+        gap={{ base: 4, sm: 8}}
       >
         <Flex flexDirection="column">
-          <Heading as="h1" fontSize={{ base: "md", sm: 'lg'}}>
+          <Heading as="h1" fontSize={{ base: "md", sm: "lg" }}>
             Hi, my name is
           </Heading>
-          <Heading as="h1" fontSize={{ base: "4xl", sm: '6xl'}}>
+          <Heading as="h1" fontSize={{ base: "4xl", sm: "6xl" }}>
             {firstName} {lastName}
           </Heading>
           <Heading
             as="h2"
-            minH={28}
-            fontSize={{ base: "4xl", sm: '6xl'}}
+            minH={{ base: 28, sm: 'inherit'}}
+            fontSize={{ base: "4xl", sm: "6xl" }}
             bgGradient="linear(to-l, gradient.start, gradient.end)"
             bgClip="text"
           >
@@ -41,7 +41,6 @@ export const HomePage = () => {
             />
           </Heading>
         </Flex>
-
         <Flex maxW="2xl">
           <Text fontSize="lg">{mission}</Text>
         </Flex>
