@@ -31,8 +31,8 @@ export const experience: ExperienceItem[] = [
     company: "Klarna",
     link: "https://klarna.se",
     role: "Consulting Senior Software Engineer",
-    start: new Date(2021, 9, 1),
-    end: new Date(2023, 6, 1),
+    start: new Date(2021, 10, 1),
+    end: new Date(2023, 5, 1),
     image: klarnaImage,
     description: `
           At Klarna I took part in a project to implement the next generation of customer authentication to create a central location
@@ -80,8 +80,8 @@ export const experience: ExperienceItem[] = [
     company: "Telia Company",
     link: "https://teliacompany.com",
     role: "Consulting Lead Developer",
-    start: new Date(2021, 2, 1),
-    end: new Date(2023, 9, 1),
+    start: new Date(2021, 1, 1),
+    end: new Date(2021, 10, 1),
     image: teliaImage,
     description: `
     After one year in in the project I started as the lead developer in the team. In addition to writing code on a 
@@ -94,8 +94,8 @@ export const experience: ExperienceItem[] = [
     company: "Telia Company",
     link: "https://teliacompany.com",
     role: "Consulting Senior Software Engineer",
-    start: new Date(2021, 2, 1),
-    end: new Date(2023, 9, 1),
+    start: new Date(2020, 1, 1),
+    end: new Date(2021, 1, 1),
     image: teliaImage,
     description: `
     I got contracted as a senior software engineer at Telia to work within a project for 
@@ -156,7 +156,7 @@ export const experience: ExperienceItem[] = [
     link: "https://golfersweden.com/",
     role: "CTO",
     start: new Date(2019, 3, 1),
-    end: new Date(2020, 2, 1),
+    end: new Date(2020, 1, 1),
     image: golferSwedenImage,
     description: `
     After my initial time at Golfer Sweden as a software engineer I advanced to the role as CTO, which meant taking responsibility 
