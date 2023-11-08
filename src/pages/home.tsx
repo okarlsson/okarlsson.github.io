@@ -23,7 +23,7 @@ export const HomePage = () => {
           </Heading>
           <Heading
             as="h2"
-            minH={{ base: 28, sm: 'inherit'}}
+            minH={{ base: 24, sm: 'inherit'}}
             fontSize={{ base: "4xl", sm: "6xl" }}
             bgGradient="linear(to-l, gradient.start, gradient.end)"
             bgClip="text"

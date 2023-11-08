@@ -29,23 +29,26 @@ const Logo = ({
   </Heading>
 );
 
-const Navigation = () => (
-  <>
-    <Button variant="ghost" as={RouterLink} to="/about">
-      About Me
-    </Button>
-    <Button variant="ghost" as={RouterLink} to="/experience">
-      Experience
-    </Button>
-    <Button variant="ghost" as={RouterLink} to="/projects">
-      Projects
-    </Button>
-  </>
-);
-
 export const Menu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { firstName, lastName } = personalInformation;
+
+  const Navigation = () => (
+    <>
+      <Button variant="ghost" as={RouterLink} to="/" onClick={onClose} >
+        Home
+      </Button>
+      <Button variant="ghost" as={RouterLink} to="/about" onClick={onClose}>
+        About Me
+      </Button>
+      <Button variant="ghost" as={RouterLink} to="/experience" onClick={onClose}>
+        Experience
+      </Button>
+      <Button variant="ghost" as={RouterLink} to="/projects" onClick={onClose}>
+        Projects
+      </Button>
+    </>
+  );
 
   return (
     <Flex

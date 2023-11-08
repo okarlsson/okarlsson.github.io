@@ -30,7 +30,7 @@ export const ExperiencePage = () => {
             _hover={{ transform: "scale(1.02)" }}
           >
             <CardHeader>
-              <Flex alignItems="center" justifyContent="space-between">
+              <Flex alignItems="center" justifyContent="space-between" gap={4}>
                 <Flex alignItems="center" gap={6}>
                   <Image
                     maxH="42px"
@@ -53,7 +53,7 @@ export const ExperiencePage = () => {
                   />
                 </Flex>
                 <Flex>
-                  <Text fontWeight="semibold">
+                  <Text fontWeight="semibold" fontSize="sm">
                     {item.start.toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "short",
