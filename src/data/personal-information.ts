@@ -26,7 +26,7 @@ export const personalInformation: PersonalInformation = {
     "a Software Architect",
   ],
   mission:
-    "On a mission to create awesome products by leveraging my competence as a full stack developer and experience from a vide variety of companies and projects.",
+    "On a mission to create awesome products by leveraging my competence as a full stack developer and experience from a wide variety of companies and projects.",
   about: `
     I'm a a full stack developer who loves to tackle new challenges and learn different tools and techniques. 
   
