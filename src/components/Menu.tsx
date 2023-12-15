@@ -13,9 +13,9 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
+import { HamburgerIcon } from "@chakra-ui/icons";
 import { personalInformation } from "../data";
 import { ColorModeSwitch } from "./ColorModeSwitch";
-import { HamburgerIcon } from "@chakra-ui/icons";
 
 const Logo = ({
   firstName,
@@ -35,13 +35,18 @@ export const Menu = () => {
 
   const Navigation = () => (
     <>
-      <Button variant="ghost" as={RouterLink} to="/" onClick={onClose} >
+      <Button variant="ghost" as={RouterLink} to="/" onClick={onClose}>
         Home
       </Button>
       <Button variant="ghost" as={RouterLink} to="/about" onClick={onClose}>
         About Me
       </Button>
-      <Button variant="ghost" as={RouterLink} to="/experience" onClick={onClose}>
+      <Button
+        variant="ghost"
+        as={RouterLink}
+        to="/experience"
+        onClick={onClose}
+      >
         Experience
       </Button>
       <Button variant="ghost" as={RouterLink} to="/projects" onClick={onClose}>
