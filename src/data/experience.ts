@@ -23,16 +23,54 @@ export const experience: ExperienceItem[] = [
     company: "Relera Consulting",
     role: "Freelance Software Engineer",
     start: new Date(2020, 2, 1),
-    description: `Relera Consulting is my own consulting company that I started to be able to work as a freelance developer. 
+    description: `Relera Consulting is my own consulting company that I started to be able to work as a freelance developer.
       Starting my own company has been a fun experience and has lead to a lot of knowledge about how to manage finances, contracts, sales and more!`,
+    tags: [],
+  },
+  {
+    company: "Pedago Labs",
+    role: "CTO",
+    start: new Date(2025, 4, 1),
+    description: `
+    I lead engineering and product development for a new EdTech platform with a broad feature set, taking it from
+    architecture through delivery.
+
+    I own the overall technical direction while leading a small, focused engineering team, and have driven heavy
+    use of AI across both the product itself and our automated content generation, keeping the team lean while
+    expanding what we can ship.
+`,
+    tags: [],
+  },
+  {
+    company: "Pedago Labs",
+    role: "Engineering Lead",
+    start: new Date(2024, 0, 1),
+    end: new Date(2025, 4, 1),
+    description: `
+    Joined Pedago Labs as Engineering Lead, driving early engineering and technical decisions for the platform
+    before stepping into the CTO role.
+`,
+    tags: [],
+  },
+  {
+    company: "Independent",
+    role: "Founder / Independent Product Developer",
+    start: new Date(2023, 4, 1),
+    end: new Date(2023, 11, 1),
+    description: `
+    Built my own SaaS product for creating automated AI workflows and apps, taking it from the first line of
+    code to production with real paying users.
+
+    Worked across product development, marketing and everything else involved in running a business on my own.
+`,
     tags: [],
   },
   {
     company: "Klarna",
     link: "https://klarna.se",
     role: "Consulting Senior Software Engineer",
-    start: new Date(2021, 10, 1),
-    end: new Date(2023, 5, 1),
+    start: new Date(2021, 9, 1),
+    end: new Date(2023, 4, 1),
     image: klarnaImage,
     description: `
           At Klarna I took part in a project to implement the next generation of customer authentication to create a central location
@@ -79,9 +117,9 @@ export const experience: ExperienceItem[] = [
   {
     company: "Telia Company",
     link: "https://teliacompany.com",
-    role: "Consulting Lead Developer",
+    role: "Consulting Engineering Lead",
     start: new Date(2021, 1, 1),
-    end: new Date(2021, 10, 1),
+    end: new Date(2021, 9, 1),
     image: teliaImage,
     description: `
     After one year in in the project I started as the lead developer in the team. In addition to writing code on a 

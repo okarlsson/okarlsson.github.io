@@ -20,9 +20,9 @@ export const personalInformation: PersonalInformation = {
   github: "https://github.com/okarlsson",
   profilePicture,
   usps: [
-    "a Software Engineer",
-    "a Freelancer",
-    "a Startup Founder",
+    "a Product Builder",
+    "a CTO",
+    "an Engineering Leader",
     "a Software Architect",
   ],
   mission:
