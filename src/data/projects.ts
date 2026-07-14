@@ -7,7 +7,7 @@ import ratepilotScreenshot from "../assets/ratepilot_screenshot.webp";
 
 type ProjectItem = {
   name: string;
-  link: string;
+  link?: string;
   image?: string;
   description: string;
 };
@@ -34,13 +34,11 @@ export const projects: ProjectItem[] = [
   },
   {
     name: "Grappa",
-    link: "https://grappa.app",
     image: grappaScreenshot,
     description: `Grappa is an invoicing platform directed to distillers to easily manage their invoices and keeping track of excise duty taxes.`,
   },
   {
     name: "Clevis",
-    link: "https://clevis.app",
     image: clevisScreenshot,
     description: `Clevis is a SaaS solution where users can easily compose apps by combining a set of provided steps. The solution 
     focuses especially on make it it easier to use the new AI solutions as Chat GPT and combine them with other data sources
@@ -49,7 +47,6 @@ export const projects: ProjectItem[] = [
 
   {
     name: "Volca",
-    link: "https://volca.io",
     image: volcaScreenshot,
     description: `Volca is a SaaS boilerplate that allows you to speed up time to market of your SaaS project by providing common functionality
     in SaaS solutions such as authentication, payments and more. It also provides infrastructure configured in AWS CDK to easily deploy the project
@@ -57,7 +54,6 @@ export const projects: ProjectItem[] = [
   },
   {
     name: "Quizly",
-    link: "https://quizlyapp.com",
     image: quizlyScreenshot,
     description: `Quizly is the game where you can challenge your friends to professionally made quizes, with different 
     scoring modes, question and answering types!
