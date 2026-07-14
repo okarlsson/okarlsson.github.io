@@ -2,6 +2,8 @@ import clevisScreenshot from "../assets/clevis_screenshot.png";
 import grappaScreenshot from "../assets/grappa_screenshot.png";
 import volcaScreenshot from "../assets/volca_screenshot.png";
 import quizlyScreenshot from "../assets/quizly_screenshot.png";
+import andyScreenshot from "../assets/andy_screenshot.webp";
+import ratepilotScreenshot from "../assets/ratepilot_screenshot.webp";
 
 type ProjectItem = {
   name: string;
@@ -11,6 +13,25 @@ type ProjectItem = {
 };
 
 export const projects: ProjectItem[] = [
+  {
+    name: "Andy - your AI stylist",
+    link: "https://andy.style",
+    image: andyScreenshot,
+    description: `Andy is an AI stylist for the wardrobe you already own. You photograph your clothes, it catalogs
+    each piece automatically and suggests outfits based on your taste, the weather and where you're headed.
+    Built end to end as a Bun monorepo: a React Native / Expo app, an Elysia API, an Astro marketing site, and
+    a Gemini-powered tool-calling agent that assembles outfits from your real wardrobe. Available on the App
+    Store and Google Play.`,
+  },
+  {
+    name: "RatePilot",
+    link: "https://ratepilot.se",
+    image: ratepilotScreenshot,
+    description: `RatePilot tracks Swedish mortgage rates and the Riksbank policy rate over time, making it
+    easy to compare lenders instead of digging through PDFs and bank websites. It pulls from the Riksbank's
+    API, scraped lender rates and Finansinspektionen's published averages, all run as scheduled jobs writing
+    to plain data files in git, no database or servers required.`,
+  },
   {
     name: "Grappa",
     link: "https://grappa.app",
