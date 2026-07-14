@@ -47,16 +47,18 @@ export const ProjectsPage = () => {
                 <Text py="2">{item.description}</Text>
               </CardBody>
 
-              <CardFooter>
-                <Button
-                  as={Link}
-                  leftIcon={<FiExternalLink />}
-                  href={item.link}
-                  target="_blank"
-                >
-                  Visit
-                </Button>
-              </CardFooter>
+              {item.link && (
+                <CardFooter>
+                  <Button
+                    as={Link}
+                    leftIcon={<FiExternalLink />}
+                    href={item.link}
+                    target="_blank"
+                  >
+                    Visit
+                  </Button>
+                </CardFooter>
+              )}
             </Stack>
           </Card>
         ))}
